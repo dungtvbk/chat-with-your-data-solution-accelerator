@@ -502,7 +502,7 @@
             },
             {
               "name": "AZURE_CONTENT_SAFETY_ENDPOINT",
-              "value": "[parameters('ContentSafetyName')]"
+              "value": "[parameters('https://${Location}.api.cognitive.microsoft.com/')]"
             },
             {
               "name": "AZURE_CONTENT_SAFETY_KEY",
@@ -665,7 +665,7 @@
             },
             {
               "name": "AZURE_CONTENT_SAFETY_ENDPOINT",
-              "value": "[parameters('ContentSafetyName')]"
+              "value": "[parameters('https://${Location}.api.cognitive.microsoft.com/')]"
             },
             {
               "name": "AZURE_CONTENT_SAFETY_KEY",
